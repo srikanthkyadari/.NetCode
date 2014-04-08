@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript">
+        
+        
+        function invokecsharpfunction()
+        {
+            var eventsstring = dbm.GetEventsList();
+            window.alert(eventsstring);
+        }
+
+         
+    </script>
+</head>
+<body>    
+    <input type="button" id="btnEvents" onclick="invokecsharpfunction();" value="Get List of Events" />
+    <span id="eventslist"></span>
+</body>
+</html>
